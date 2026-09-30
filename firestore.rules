@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Only the authenticated farmer can read or write their own profile
+    match /farmers/{farmerUid} {
+      allow read, write: if request.auth != null && request.auth.uid == farmerUid;
+    }
+    
+    // Deny all other collections by default for strict security
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "KisanSaarthi AI",
+  "description": "AI-powered multilingual agricultural intelligence and regenerative farming decision-support platform for India.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

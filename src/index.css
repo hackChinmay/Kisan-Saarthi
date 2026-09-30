@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-en: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-hi: 'Noto Sans Devanagari', 'Inter', sans-serif;
+    --font-ta: 'Noto Sans Tamil', 'Inter', sans-serif;
+    --font-te: 'Noto Sans Telugu', 'Inter', sans-serif;
+    --font-kn: 'Noto Sans Kannada', 'Inter', sans-serif;
+    --font-mr: 'Noto Sans Devanagari', 'Inter', sans-serif;
+    --font-bn: 'Noto Sans Bengali', 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-en);
+    background-color: #F6F8F5;
+    color: #111C14;
+    line-height: 1.6;
+    letter-spacing: -0.011em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Language-specific font application */
+  body[data-lang="hi"], .lang-hi {
+    font-family: var(--font-hi);
+  }
+  body[data-lang="ta"], .lang-ta {
+    font-family: var(--font-ta);
+  }
+  body[data-lang="te"], .lang-te {
+    font-family: var(--font-te);
+  }
+  body[data-lang="kn"], .lang-kn {
+    font-family: var(--font-kn);
+  }
+  body[data-lang="mr"], .lang-mr {
+    font-family: var(--font-mr);
+  }
+  body[data-lang="bn"], .lang-bn {
+    font-family: var(--font-bn);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Pulse animation for voice recording */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 14px rgba(220, 38, 38, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+}
+
+.animate-pulse-record {
+  animation: pulse-ring 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes wave-bar {
+  0%, 100% { height: 6px; }
+  50% { height: 26px; }
+}
+
+.animate-wave-1 { animation: wave-bar 0.8s ease-in-out infinite 0.1s; }
+.animate-wave-2 { animation: wave-bar 0.8s ease-in-out infinite 0.3s; }
+.animate-wave-3 { animation: wave-bar 0.8s ease-in-out infinite 0.2s; }
+.animate-wave-4 { animation: wave-bar 0.8s ease-in-out infinite 0.4s; }
+.animate-wave-5 { animation: wave-bar 0.8s ease-in-out infinite 0.15s; }
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
