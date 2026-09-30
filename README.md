@@ -13,11 +13,13 @@ The system supports **7 Indian languages** (English, हिन्दी, தம�
 
 ---
 
-## 🎬 Live Demo & Video Walkthrough
+## 🌐 Live Deployment & Demo Walkthrough
 
+[![Live Web Application](https://img.shields.io/badge/🚀%20Live%20Application-kisan--saarthi.onrender.com-047857?style=for-the-badge&logo=render&logoColor=white)](https://kisan-saarthi.onrender.com/)
 [![Watch Kisan Saarthi Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Demo%20Video-Google%20Drive%20HD-14532D?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1-MHqLv4gOYopzCzYuQTyQryeZyaeuua-/view?usp=sharing)
 
-> 📺 **Full Video Walkthrough**: [Watch Kisan Saarthi Architecture & Live Demo on Google Drive](https://drive.google.com/file/d/1-MHqLv4gOYopzCzYuQTyQryeZyaeuua-/view?usp=sharing)
+* 🌐 **Live Web Application**: [https://kisan-saarthi.onrender.com](https://kisan-saarthi.onrender.com/)
+* 📺 **Full Video Walkthrough**: [Watch Kisan Saarthi Architecture & Live Demo on Google Drive](https://drive.google.com/file/d/1-MHqLv4gOYopzCzYuQTyQryeZyaeuua-/view?usp=sharing)
 
 ---
 
