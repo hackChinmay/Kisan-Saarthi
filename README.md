@@ -13,6 +13,14 @@ The system supports **7 Indian languages** (English, हिन्दी, தம�
 
 ---
 
+## 🎬 Live Demo & Video Walkthrough
+
+[![Watch Kisan Saarthi Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Demo%20Video-Google%20Drive%20HD-14532D?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1-MHqLv4gOYopzCzYuQTyQryeZyaeuua-/view?usp=sharing)
+
+> 📺 **Full Video Walkthrough**: [Watch Kisan Saarthi Architecture & Live Demo on Google Drive](https://drive.google.com/file/d/1-MHqLv4gOYopzCzYuQTyQryeZyaeuua-/view?usp=sharing)
+
+---
+
 ## 🌟 Key Capabilities
 
 ### 1. 🤖 Multimodal Crop Disease & Health Vision Diagnostics
